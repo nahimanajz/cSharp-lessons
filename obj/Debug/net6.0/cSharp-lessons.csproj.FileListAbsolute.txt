@@ -1,0 +1,15 @@
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.csproj.AssemblyReference.cache
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.AssemblyInfoInputs.cache
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.AssemblyInfo.cs
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.csproj.CoreCompileInputs.cache
+/Volumes/D/Coding/cSharp-lessons/bin/Debug/net6.0/cSharp-lessons
+/Volumes/D/Coding/cSharp-lessons/bin/Debug/net6.0/cSharp-lessons.deps.json
+/Volumes/D/Coding/cSharp-lessons/bin/Debug/net6.0/cSharp-lessons.runtimeconfig.json
+/Volumes/D/Coding/cSharp-lessons/bin/Debug/net6.0/cSharp-lessons.dll
+/Volumes/D/Coding/cSharp-lessons/bin/Debug/net6.0/cSharp-lessons.pdb
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.dll
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/refint/cSharp-lessons.dll
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.pdb
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/cSharp-lessons.genruntimeconfig.cache
+/Volumes/D/Coding/cSharp-lessons/obj/Debug/net6.0/ref/cSharp-lessons.dll
