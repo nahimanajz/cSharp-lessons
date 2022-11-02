@@ -88,7 +88,7 @@ using System;
             // skipped IFs
             int number = 9;
             if(number < 10){
-                Console.WriteLine("Our number is less than 10")
+                Console.WriteLine("Our number is less than 10");
             } else{
                 Console.WriteLine("Our number is greater than 10");
 
@@ -108,10 +108,18 @@ using System;
                 counter++;
              }  while(counter < 10); 
 
-            //#3 for
+            //#3 for loop
             for(int i = 0; i < 10; i++){
                 Console.WriteLine($"for loop is: {i}");
             }
+            // combine branches and loops
+            // Calculate Sum of the numbers that are divisible by three from 1 to 20
+            
+            int sum = 0;
+            for ( int i = 1; i < 20; i++){
+                if(i % 3 == 0) sum +=i;
+            }
+            Console.WriteLine($"As expected sum is 63 the actual sum is {sum} ");
         }
     }
 
