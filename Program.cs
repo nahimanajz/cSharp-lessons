@@ -132,6 +132,19 @@ using System;
             buddies.Sort();
             for (var i =0; i < buddies.Count; i++) Console.WriteLine(buddies[i]);
             Console.WriteLine(buddies.IndexOf("BIKORI")); // -1 if item isn't exist)
+
+            //Integers
+            List<int> fibonacciNumbers = new List<int>{1, 1};
+            while (fibonacciNumbers.Count <= 20){
+
+                var prev = fibonacciNumbers[fibonacciNumbers.Count -1];
+                var prevTwoSteps = fibonacciNumbers[fibonacciNumbers.Count -2];
+                fibonacciNumbers.Add(prev + prevTwoSteps);
+            }
+            foreach (var element in fibonacciNumbers) Console.WriteLine(element);
+
+  
         }
+
     }
 
