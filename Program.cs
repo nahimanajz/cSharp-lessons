@@ -48,8 +48,70 @@ using System;
             int a = 3, b=4, c= 5;
             int multiplyFirst = a+b*c;
             int sumFirst = (a+b) * c;
+            int div = (a+b) / c;
+            int rem = (a+b) % c;
+
             Console.WriteLine($"{multiplyFirst}");
             Console.WriteLine($"{sumFirst}");
+            Console.WriteLine($"Quotient: {div} and remainder {rem}");
+
+            // max and min allowed in c-sharp
+            int max = int.MaxValue;
+            int min = int.MinValue;
+            int addToMax = max +3; // Since we alread reached on int max size, addition overflows it.
+            Console.WriteLine($"Min: {min} and Max: {max} ");
+            Console.WriteLine($"{addToMax}");
+
+            double maxDouble = double.MaxValue;
+            double minDouble = double.MinValue;
+            double quotient = 1.0 / 3.0;
+            Console.WriteLine($"Max: {maxDouble} and min: {minDouble} "); // 1.7976931348623157E+308 and min: -1.7976931348623157E+308  e means exponent
+            Console.WriteLine($"Double quotient: {quotient}");
+
+            decimal maxDecimal = decimal.MaxValue;
+            decimal minDecimal = decimal.MinValue;
+            Console.WriteLine($"decimals range from: {minDecimal} to : {maxDecimal} "); 
+
+            long maxLong = long.MaxValue;
+            long minLong = long.MinValue;
+            Console.WriteLine($"Long range from: {maxLong} to : {minLong} ");
+
+            short maxShort = short.MaxValue;
+            short minShort = short.MinValue;
+            Console.WriteLine($"Long range from: {minShort} to : {maxShort} ");
+
+            // Calculating area of circle Math functions
+            double rad = 2.5;
+            double pi = Math.PI;
+            double area = rad*rad*pi;
+            Console.WriteLine($"Circle area is {area}");
+            // skipped IFs
+            int number = 9;
+            if(number < 10){
+                Console.WriteLine("Our number is less than 10")
+            } else{
+                Console.WriteLine("Our number is greater than 10");
+
+            }
+            // Loops
+            int counter = 0;
+
+            // #1 while (check and do after)
+            while(counter < 10){
+                Console.WriteLine($"while loop counter is: {counter}");
+                counter++;
+            }
+
+            // #2 do while 
+             do { // do the job and check after
+                Console.WriteLine($"do while loop is: {counter}");
+                counter++;
+             }  while(counter < 10); 
+
+            //#3 for
+            for(int i = 0; i < 10; i++){
+                Console.WriteLine($"for loop is: {i}");
+            }
         }
     }
 
