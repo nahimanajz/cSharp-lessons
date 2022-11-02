@@ -120,6 +120,18 @@ using System;
                 if(i % 3 == 0) sum +=i;
             }
             Console.WriteLine($"As expected sum is 63 the actual sum is {sum} ");
+
+            //ARRAY, List and Collections;
+            var buddies = new List<string>{"Mistico","Jz", "Bboy","Jopox"};    // use var in ccase you don't know exact datatypes
+            buddies.Add("BIKORI..");
+            buddies.Add("Harera..");
+            buddies.Remove("Jz");
+
+            foreach (var buddy in buddies) Console.WriteLine(buddy);
+            
+            buddies.Sort();
+            for (var i =0; i < buddies.Count; i++) Console.WriteLine(buddies[i]);
+            Console.WriteLine(buddies.IndexOf("BIKORI")); // -1 if item isn't exist)
         }
     }
 
