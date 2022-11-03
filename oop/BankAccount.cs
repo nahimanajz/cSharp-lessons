@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 public class BankAccount
 {
     public string Number { get; }
@@ -17,6 +18,7 @@ public class BankAccount
     }
      public BankAccount(string name, decimal intialBalance){ 
         Owner = name;  // you can also use this.property = parameters
+        MakeDeposit(intialBalance, DateTime.Now, "Initial Balance");
         this.Number = accountNumberSeed.ToString();
         accountNumberSeed++;
 
@@ -40,4 +42,10 @@ public class BankAccount
 
     }
 
+     public string GetAccountHistory(){
+        var report = new StringBuilder();
+        report.AppendLine("Date \t\t Amount\t Note"); // header
+        foreach (var item in allTransactions)report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{item.Notes}"); //rows
+        return report.ToString();
+     }
 }
