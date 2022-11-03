@@ -143,7 +143,9 @@ using System;
             }
             foreach (var element in fibonacciNumbers) Console.WriteLine(element);
 
-  
+                // using classes 
+                BankAccount ba = new BankAccount("Janvier", 2000);
+                Console.WriteLine($"Account {ba.Number} created for {ba.Owner} has {ba.Balance} USD");
         }
 
     }
